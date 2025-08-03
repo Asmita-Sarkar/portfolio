@@ -9,6 +9,7 @@ import clicbeatImage from '../assets/website/clicbeat.png';
 import vlancerImage from '../assets/website/vlancer.png';
 import tourismImage from '../assets/website/turismapp.png';
 import heakanizeImage from '../assets/website/hekanize.png';
+import classmateImage from '../assets/website/classmate.png';
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -77,6 +78,15 @@ export const projects: Project[] = [
     tech: ["Node", "PostgreSQL"],
     role: "Backend Developer",
     link: "https://sitter.live/"
+  },
+  {
+    id: 8,
+    title: "Classmate",
+    description: "Built a React-based cloud portal integrated with Azure APIs for Irish schools to manage schoolbook inventory, grants, and compliance through interactive dashboards and automated workflows.",
+    image: classmateImage,
+    tech: ["React"],
+    role: "Frontend Developer",
+    link: "https://classmate.ie/"
   },
   {
     id: 8,
