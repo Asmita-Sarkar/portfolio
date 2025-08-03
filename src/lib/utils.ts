@@ -105,14 +105,14 @@ export const experience: Experience[] = [
     company: "Hupp Technologies Private Limited",
     role: "Software Developer",
     location: "Ahmedabad, India",
-    tech: ["MEAN", "MERN"]
+    tech: ["React", "Node.js", "Angular", "Vue.js", "MongoDB", "PostgreSQL", "MySQL",  "Firebase", "Git"]
   },
   {
     id: 2,
     company: "Epistic Technologies Pvt Ltd",
     role: "Jr. Software Developerr",
     location: "Ahmedabad, India",
-    tech: ["Angular"]
+    tech: ["HTML", "CSS", "JavaScript", "Angular"]
   },
 ];
 
